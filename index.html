@@ -1,1 +1,154 @@
-<h1>Phillipa Ikhile</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phillipa Ikhile | Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grey+Qo&family=Playwrite+BE+WAL:wght@100..400&family=Playwrite+PE:wght@100..400&family=Victor+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="about" class="py-5">
+        <div class="container d-flex flex-column">
+            <h1 class="text-center">&lt; Phillipa Ikhile /&gt;</h2>
+            <p class="text-center">Web developer and Interactive Media graduate</p>
+            <div class="d-flex justify-content-center gap-1">
+                <a href="https://www.linkedin.com/in/phillipaikhile/" target="_blank"><img src="resources/linkedin.png" alt="LinkedIn icon" class="sm-logo"></a>
+                <a href="https://github.com/ikhile" target="_blank"><img src="resources/github.png" alt="GitHub icon" class="sm-logo"></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="py-5 bg-light">
+            <h2 class="text-center">Portfolio</h2>
+            <div class="d-flex flex-wrap gap-2 justify-content-center mx-5">
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <img src="resources/tixfix.png" class="card-img-top" alt="A screenshot of the concert ticket website">
+                        <div class="card-body d-flex flex-column justify-content-end"> <!--  d-flex flex-column justify-content-between -->
+                            <h5 class="card-title">Concert Ticket Site</h5>
+                            <p class="card-text">A concert ticket e-commerce site developed with the aim of improving the user experience of buying concert tickets online by addressing issues in the existing market.</p>
+                            <ul class="tech-list d-flex gap-1 flex-wrap  flex-fill align-content-start">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>NodeJS</li>
+                                <li>Express</li>
+                                <li>MySQL</li>
+                            </ul>
+                            <div class="d-flex flex-column gap-2 view-btns">
+                                <a href="https://tixfix.fly.dev/" target="_blank" class="btn btn-primary">View Live</a>
+                                <a href="https://github.com/ikhile/project-website" target="_blank" class="btn btn-secondary">View on GitHub</a>
+                                <!-- <a href="#" class="btn btn-secondary">View project report</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <img src="resources/productivity-app.png" class="card-img-top" alt="A screenshot of the productivity app">
+                        <div class="card-body d-flex flex-column justify-content-end">
+                            <h5 class="card-title">Productivity App</h5>
+                            <p class="card-text">A web application based on the Momentum Chrome extension that allows users to customise a webpage with up to six widgets, to be used as a browser homepage.</p>
+                            <ul class="tech-list d-flex gap-1 flex-wrap flex-fill align-content-start">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                            </ul>
+                            <div class="d-flex flex-column gap-2 view-btns">
+                                <a href="https://github.com/ikhile/Productivity-Web-Application" target="_blank" class="btn btn-secondary">View on GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card ">
+                        <img src="resources/mtm.png" class="card-img-top" alt="A screenshot of the Move the Masses donation form">
+                        <div class="card-body d-flex flex-column justify-content-end">
+                            <h5 class="card-title">Donations Workflow</h5>
+                            <p class="card-text">Created for charity Move the Masses, a donations workflow was created to allow users to opt-in to Gift Aid on donations and capture the necessary data, where previously donors were contacted individually for this information, and to allow for one-off and recurring donations using Stripe.</p>
+                            <ul class="tech-list d-flex gap-1 flex-wrap flex-fill align-content-start">
+                                <li>Wordpress</li>
+                                <li>PHP</li>
+                                <li>HTML Forms</li>
+                                <li>Stripe</li>
+                                <li>Webhooks</li>
+                            </ul>
+                            <div class="d-flex flex-column gap-2 view-btns">
+                                <a href="https://www.movethemasses.org.uk/donate/" target="_blank" class="btn purple-grey">View Live</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <img src="resources/rgbclock.png" class="card-img-top" alt="A screenshot of one of the CodePen projects, an RGB clock">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">CodePen Projects</h5>
+                            <p class="card-text">A collection of simple, interactive projects created in CodePen as part of my journey of learning HTML, CSS, and JavaScript.</p>
+                            <ul class="tech-list d-flex gap-1 flex-wrap flex-fill align-content-start">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                            </ul>
+                            <div class="d-flex flex-column gap-2 view-btns">
+                                <a href="https://codepen.io/collection/yryjPz?grid_type=grid" target="_blank" class="btn btn-primary">View on CodePen</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <img src="resources/xmas card.png" class="card-img-top" alt="A screenshot of the interactive christmas card">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Interactive Christmas Card</h5>
+                            <p class="card-text">An interactive christmas card that plays christmas tunes and visualises the audio output as part of a winter scene.</p>
+                            <ul class="tech-list d-flex gap-1 flex-wrap flex-fill align-content-start">
+                                <li>Processing</li>
+                            </ul>
+                            <div class="d-flex flex-column gap-2 view-btns">
+                                <a href="https://github.com/ikhile/Interactive-Christmas-Card" target="_blank" class="btn btn-primary">View on GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

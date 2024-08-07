@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+* {
+  transition: all 0.5s ease-in-out;
+}
+
+section {
+  border-bottom: 1px solid #ccc;
+}
+
+.job, .education-entry {
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-family: 'Playwrite BE WAL';
+  font-size: 2.2em;
+  color: #6b537a;
+  margin-top: 20px;
+}
+
+#about p {
+  font-family: 'Victor Mono';
+  font-size: 0.8em;
+  color: #B7A9C0;
+}
+
+.nav-item  * {
+  color: #B7A9C0;
+}
+
+h2 {
+  margin-bottom: 30px;
+  font-family: 'Playwrite PE';
+}
+
+.card {
+  border: 3px solid #ede7ec;
+  border-radius: 10px;
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-title, .card-text {
+  text-align: center;
+}
+
+.card-title {
+  font-family: 'Victor Mono';
+  font-size: 0.95em;
+  /* font-style: italic; */
+  font-weight: light;
+}
+
+.card-text, .tech-list, .view-btns {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.view-btns .btn {
+  background-color: #B7A9C0 !important;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 0.8em;
+}
+
+.purple-bg {
+  background-color: #B7A9C0;
+}
+
+
+.tech-list {
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+}
+
+.tech-list li {
+  list-style-type: none;
+  background-color: #BAB0B9;
+  border-radius: 10px;
+  padding: 3px 6px;
+  font-size: 0.7em;
+  color: white;
+}
+
+.sm-logo {
+  width: 25px;
+  height: fit-content;
+}
+
+.card:hover, .sm-logo:hover {
+  z-index: 1;
+}
+
+.sm-logo:hover {
+  transform: scale(1.1);
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
