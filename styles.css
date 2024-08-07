@@ -75,7 +75,6 @@ h2 {
   background-color: #B7A9C0;
 }
 
-
 .tech-list {
   display: flex;
   justify-content: center;
@@ -92,8 +91,9 @@ h2 {
 }
 
 .sm-logo {
-  width: 25px;
-  height: fit-content;
+  height: 25px;
+  width: fit-content;
+  filter: invert(88%) sepia(17%) saturate(2761%) hue-rotate(193deg) brightness(111%) contrast(51%);
 }
 
 .card:hover, .sm-logo:hover {
